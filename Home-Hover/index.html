@@ -29,6 +29,78 @@
       body {
         font-family: "sans" ;  }
 
+      
+      
+      .col-12,#carouselExampleControlsNoTouching{
+        max-width: 70%;  
+        height: auto; 
+        margin-top: 5px;
+        margin-bottom: 5px;       
+      }
+
+      @media screen and (min-width: 769px){
+        .bp{
+          padding-left: 150px;
+          padding-right: 150px;
+        }
+      }
+
+      @media screen and (max-width: 769px) and (min-width: 481px) {
+        .bp{
+          padding-left: 80px;
+          padding-right: 80px;
+        }
+      }
+
+      @media screen and (max-width: 481px)  {
+        .bp{
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+      }
+
+      @media screen and (max-width: 960px) {
+        .cntr {
+        text-align: center;
+        
+ 
+        
+      }
+      }
+      @media screen and (max-width: 769px) {
+        .col-1 {
+
+ 
+        
+      }
+      } 
+
+      @media screen and (min-width: 991px){
+        .brv{
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 991px) and (min-width: 769px) {
+        .brv{
+
+        }
+      }
+
+      @media screen and (max-width: 769px)  {
+        .brv{
+          display: none;
+        }
+      }
+
+      
+
+
+
+
+
+
+
 
         
     </style>
@@ -39,11 +111,11 @@
     <header class="shadow">
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand " href="#">
               <img src="./images/PapGroup.png" style="height: auto;
               width: auto;
               max-height: 72px;
-              max-width: 50px;"  alt="">
+              max-width: 50px; "  alt="">
         </a>
           <button
             class="navbar-toggler"
@@ -109,8 +181,9 @@
     <section style="background-color: #e6eff1">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 d-flex justify-content-center">
-            <img src="./images/Web development _Flatline.png" alt="" />
+          <div class="col-md-6 ">
+            <img src="./images/Web development _Flatline.png"  style="max-width: 100%;  
+            height: auto" alt="" />
           </div>
           <div class="col-md-6 d-flex justify-content-center" style="display: grid;">
             <div class="" style="margin: auto;">
@@ -159,9 +232,9 @@
         <div class="row m-5">
 
            
-        <div class="col-4">
+        <div class="col-md-4 mb-5">
           <div class="card shadow" style="border-radius: 10px">
-            <div class="card-body" style="position: relative">
+            <div class="card-body d-flex flex-column" style=" ">
               <div style="color: #40a8b5;">بازاریابی شبکه های اجتماعی</div>
               <div class="">
                 <img src="./images/Social Media_Isometric.svg" style="width: 90%; height: 90%;" alt="" />
@@ -169,10 +242,8 @@
 
               <button
                 type="button"
-                class="btn btn-secondary px-5"
-                style="
-                  position: absolute;
-                  right: 35%;
+                class="btn btn-secondary px-5 position-absolute top-100 start-50 translate-middle "
+                style=" 
                   background-color: #ff7e55;
                   border: #ff7e55;
                 "
@@ -184,17 +255,16 @@
 
           <div class="card shadow mt-5" style="border-radius: 10px">
             <div class="card-body" style="position: relative">
-              <div style="color: #40a8b5;">پنل پیامک</div>
+              <div style="color: #40a8b5; ">پنل پیامک</div>
+
               <div>
                 <img src="./images/New Message_Flatline.svg"  style="width: 90%; height: 90%;" alt="" />
               </div>
 
               <button
                 type="button"
-                class="btn btn-secondary px-5"
-                style="
-                  position: absolute;
-                  right: 35%;
+                class="btn  btn-secondary px-5 position-absolute top-100 start-50 translate-middle"
+                style="                    
                   background-color: #ff7e55;
                   border: #ff7e55;
                 "
@@ -205,20 +275,21 @@
           </div>
         </div>
         
-        <div class="col-4">
+        <div class="col-md-4 mb-5">
             <div class="card shadow" style="border-radius: 10px">
               <div class="card-body" style="position: relative">
+                
                 <div style="color: #40a8b5;">بهینه سازی سایت</div>
+                <br class="brv">
                 <div>
                   <img src="./images/World wide web_Outline.svg" style="width: 90%; height: 90%;" alt="" />
                 </div>
   
                 <button
                   type="button"
-                  class="btn btn-secondary px-5"
+                  class="btn position-absolute top-100 start-50 translate-middle btn-secondary btns px-5"
                   style="
-                    position: absolute;
-                    right: 35%;
+                      
                     background-color: #ff7e55;
                     border: #ff7e55;
                   "
@@ -226,45 +297,46 @@
                   بیشتر
                 </button>
               </div>
-            </div>
+            </div> 
   
             <div class="card shadow mt-5" style="border-radius: 10px">
-              <div class="card-body" style="position: relative">
+              <div class="card-body " style="">
                 <div style="color: #40a8b5;">طراحی سایت و رابط کاربری</div>
+                
                 <div>
                   <img src="./images/UI design _Outline.svg" style="width: 90%; height: 90%;"  alt="" />
                 </div>
   
                 <button
+                
                   type="button"
-                  class="btn btn-secondary px-5"
+                  class="btn btn-secondary px-5 position-absolute top-100 start-50 translate-middle "
                   style="
-                    position: absolute;
-                    right: 35%;
+                                      
                     background-color: #ff7e55;
                     border: #ff7e55;
                   "
                 >
-                  بیشتر
+                بیشتر  
                 </button>
               </div>
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-md-4 mb-5">
             <div class="card shadow" style="border-radius: 10px">
-              <div class="card-body" style="position: relative; color: #40a8b5;">
+              <div class="card-body" style="position: relative; color: #40a8b5;">                
                 <div>گوگل ادوردز</div>
+                <br class="brv">
                 <div>
                   <img src="./images/Google Ad_Two Color.svg" style="width: 90%; height: 90%;"  alt="" />
                 </div>
   
                 <button
                   type="button"
-                  class="btn btn-secondary px-5"
+                  class="btn btn-secondary px-5 position-absolute top-100 start-50 translate-middle"
                   style="
-                    position: absolute;
-                    right: 35%;
+                       
                     background-color: #ff7e55;
                     border: #ff7e55;
                   "
@@ -277,16 +349,16 @@
             <div class="card shadow mt-5" style="border-radius: 10px">
               <div class="card-body" style="position: relative">
                 <div style="color:#40a8b5">توسعه نرم افزار</div>
+                <br class="brv">
                 <div>
                     <img src="./images/Analytics process_Outline.svg" style="width: 90%; height: 90%;"  alt="" />
                 </div>
   
                 <button
                   type="button"
-                  class="btn btn-secondary px-5"
+                  class="btn btn-secondary px-5 position-absolute top-100 start-50 translate-middle"
                   style="
-                    position: absolute;
-                    right: 35%;
+                     
                     background-color: #ff7e55;
                     border: #ff7e55;
                   "
@@ -296,6 +368,7 @@
               </div>
             </div>
           </div>
+
       </div>
     </section>
     <!--خدمات  ما-->
@@ -308,11 +381,12 @@
         <div class="container">
             
             <div class="row pb-5">
-                <div class="col-4 px-5 ">
-                  <h3 class="row mb-4 fw-bold" style="color: #344c60;">
+              <h3 class="row mb-4 fw-bold"  style="color: #344c60; ">
                       
-                        تجربه مشتریان پیام آوران
-                    </h3>
+                تجربه مشتریان پیام آوران
+            </h3>
+                <div class="col-md-4 px-5 col-12 ">
+                  
 
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                         <div class="carousel-inner">
@@ -336,7 +410,7 @@
                         </button>
                       </div>
                 </div>
-                <div class="col-8 px-5" style="display: grid;">
+                <div class="col-md-8 px-5" style="display: grid;">
                     <div style="margin: auto;">
                         <p class="fw-bold">
                             طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات
@@ -361,11 +435,11 @@
     <!--محصولات ما-->
     <section class="mb-5">
         <div class="container">
-            <h3  class="row mb-4 fw-bold" style="color: #344c60;">محصولات ما</h3>
+            <h3  class=" mb-4 mx-3 fw-bold" style="color: #344c60;">محصولات ما</h3>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4 ">
 
-                      <div class="card shadow mx-3 my-5" style="border-radius: 10px; border: solid #3e5d8f 5px;">
+                      <div class="card shadow mb-3 mx-3 " style="border-radius: 10px; border: solid #3e5d8f 5px;">
                         <div class="card-body" style="position: relative">
                             <h5 class="card-title" style="color: #ff7e55;">مدیریت سانترال هومان  </h5>
                             <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
@@ -377,7 +451,7 @@
                         </div>
                       </div>
 
-                      <div class="card shadow my-5 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
+                      <div class="card shadow mb-3 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
                         <div class="card-body" style="position: relative">
                             <h5 class="card-title" style="color: #ff7e55;">مدیریت سانترال هومان  </h5>
                             <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
@@ -390,9 +464,9 @@
                       </div>
 
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
 
-                    <div class="card shadow my-5 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
+                    <div class="card shadow mb-3 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
                       <div class="card-body" style="position: relative">
                           <h5 class="card-title" style="color: #ff7e55;">مدیریت سانترال هومان  </h5>
                           <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
@@ -404,7 +478,7 @@
                       </div>
                     </div>
 
-                    <div class="card shadow my-5 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
+                    <div class="card shadow mb-3 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
                       <div class="card-body" style="position: relative">
                           <h5 class="card-title" style="color: #ff7e55;">مدیریت سانترال هومان  </h5>
                           <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
@@ -417,9 +491,9 @@
                     </div>
 
               </div>
-              <div class="col-4">
+              <div class="col-md-4">
 
-                <div class="card shadow my-5 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
+                <div class="card shadow mb-3 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
                   <div class="card-body" style="position: relative">
                       <h5 class="card-title" style="color: #ff7e55;">مدیریت سانترال هومان  </h5>
                       <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
@@ -431,7 +505,7 @@
                   </div>
                 </div>
 
-                <div class="card shadow my-5 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
+                <div class="card shadow mb-3 mx-3" style="border-radius: 10px; border: solid #3e5d8f 5px;">
                   <div class="card-body" style="position: relative">
                       <h5 class="card-title" style="color: #ff7e55;">مدیریت سانترال هومان  </h5>
                       <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
@@ -453,9 +527,9 @@
     <!--محصولات ما-->
 
     <!-- راه کارهای نوین نرم افزاری را با ما تجربه کنید! -->
-    <section>
-    <section>
-        <div class="container">
+    <section class="pt-5">
+    <section class="pt-5">
+        <div class="container pt-5">
             <div class="row ">
                 <h3 class="text-center" style=" color:#43525f">راه کارهای نوین نرم افزاری را با ما تجربه کنید</h3>
             </div>
@@ -481,18 +555,17 @@
     
     <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-2.59,152.46 C237.25,-2.46 237.80,-2.46 506.99,158.39 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #e6eff1;"></path></svg></div>
     
-    <section class="mb-5" style="">
+    <section class="mb-5 position-relative" style="">
 
         <button
                     type="button"
-                    class="btn btn-secondary "
+                    class="btn btn-secondary  position-absolute top-50 start-50 translate-middle bp"
                     style="
                       position: absolute;
                       right: 37.5%;
                       background-color: #ff7e55;
                       border: #ff7e55;
-                      padding-left: 150px;
-                      padding-right: 150px;
+                      
                     "
                   >تماس با ما</button>
     </section>
@@ -500,187 +573,234 @@
     <!-- راه کارهای نوین نرم افزاری را با ما تجربه کنید! -->
 
     <!-- وبلاگ! -->
-    <section class="my-5">
-        <div class="container p-5">
-          <h3 class="row mb-4 fw-bold" style="color: #344c60;">وبلاگ </h3>          
-            <div class="row">
-
-          <div class="col-3">
-            <div class="card shadow " style="width: 18rem; border-radius: 25px; " >
+      <section class="mb-5">
+        
+        <div class="container">
+            
+          <h3 class=" mb-4 fw-bold" style="color: #344c60;">وبلاگ </h3>
+          <div class="row m-5">
+  
+             
+            <div class="col-md-6 col-lg-3 mb-5">
+              <div class="card shadow" style="border-radius: 10px">
                 <img src="./images/download (1).png" class="card-img-top " alt="..." style="border-radius: 25px; padding: 15px;" >
-                <div class="card-body" style="position: relative;">
-                  <h5 class="card-title" style="color: #3e5d8f;">مزیت استفاده از ایمیل مارکتینگ</h5>
-                  <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
-                    اما تولید محتوا به تنهایی کافی نیست ...</p>
-                    <button
-                    type="button"
-                    class="btn btn-secondary px-5"
-                    style="
-                      position: absolute;
-                      right: 20%;
-                      background-color: #ff7e55;
-                      border: #ff7e55;
-                    "
-                  >ادامه مطلب</button>
-                </div>
-              </div>
-          </div>
-          <div class="col-3">
-            <div class="card shadow " style="width: 18rem; border-radius: 25px; " >
-                <img src="./images/download (1).png" class="card-img-top " alt="..." style="border-radius: 25px; padding: 15px;" >
-                <div class="card-body" style="position: relative;">
+                <div class="card-body " style=" ">
                   <h5 class="card-title" style="color: #3e5d8f;">ایمیل مارکتینگ چیست و از کجا
                     شروع شد؟</h5>
+                    <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
+                      اما تولید محتوا به تنهایی کافی نیست ...</p>
+                   
+                      <button
+                      type="button"
+                      class="btn btn-secondary position-absolute top-100 start-50 translate-middle  px-5"
+                      style="
+                        position: absolute;
+                        width:fit-content;
+                        background-color: #ff7e55;
+                        border: #ff7e55;
+                      "
+                    >ادامه مطلب</button>
+                </div>
+              </div>
+    
+            </div>
+
+          <div class="col-md-6 col-lg-3 mb-5">
+            <div class="card shadow" style="border-radius: 10px">
+              <img src="./images/download (1).png" class="card-img-top " alt="..." style="border-radius: 25px; padding: 15px;" >
+              <div class="card-body " style=" ">
+                <h5 class="card-title" style="color: #3e5d8f;">ایمیل مارکتینگ چیست و از کجا
+                  شروع شد؟</h5>
                   <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
                     اما تولید محتوا به تنهایی کافی نیست ...</p>
+                 
                     <button
                     type="button"
-                    class="btn btn-secondary px-5"
+                    class="btn btn-secondary position-absolute top-100 start-50 translate-middle  px-5"
                     style="
                       position: absolute;
-                      right: 20%;
+                      width:fit-content;
                       background-color: #ff7e55;
                       border: #ff7e55;
                     "
                   >ادامه مطلب</button>
-                </div>
               </div>
+            </div>
+  
           </div>
-          <div class="col-3">
-            <div class="card shadow " style="width: 18rem; border-radius: 25px; " >
-                <img src="./images/download (1).png" class="card-img-top " alt="..." style="border-radius: 25px; padding: 15px;" >
-                <div class="card-body" style="position: relative;">
-                  <h5 class="card-title" style="color: #3e5d8f;">ایمیل مارکتینگ چیست و از کجا شروع شد؟</h5>
+
+          <div class="col-md-6 col-lg-3 mb-5">
+            <div class="card shadow" style="border-radius: 10px">
+              <img src="./images/download (1).png" class="card-img-top " alt="..." style="border-radius: 25px; padding: 15px;" >
+              <div class="card-body " style=" ">
+                <h5 class="card-title" style="color: #3e5d8f;">ایمیل مارکتینگ چیست و از کجا
+                  شروع شد؟</h5>
                   <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
                     اما تولید محتوا به تنهایی کافی نیست ...</p>
+                 
                     <button
                     type="button"
-                    class="btn btn-secondary px-5"
+                    class="btn btn-secondary position-absolute top-100 start-50 translate-middle  px-5"
                     style="
                       position: absolute;
-                      right: 20%;
+                      width:fit-content;
                       background-color: #ff7e55;
                       border: #ff7e55;
                     "
                   >ادامه مطلب</button>
-                </div>
               </div>
+            </div>
+  
           </div>
-          <div class="col-3">
-            <div class="card shadow " style="width: 18rem; border-radius: 25px; " >
-                <img src="./images/download (1).png" class="card-img-top " alt="..." style="border-radius: 25px; padding: 15px;" >
-                <div class="card-body" style="position: relative;">
-                  <h5 class="card-title" style="color: #3e5d8f;">ایمیل مارکتینگ چیست و از کجا شروع شد؟</h5>
+
+          <div class="col-md-6 col-lg-3 mb-5">
+            <div class="card shadow" style="border-radius: 10px">
+              <img src="./images/download (1).png" class="card-img-top " alt="..." style="border-radius: 25px; padding: 15px;" >
+              <div class="card-body " style=" ">
+                <h5 class="card-title" style="color: #3e5d8f;">ایمیل مارکتینگ چیست و از کجا
+                  شروع شد؟</h5>
                   <p class="card-text"> اگر تولید محتوا نمی کنیدیعنی شما وجود خارجی ندارید.  
                     اما تولید محتوا به تنهایی کافی نیست ...</p>
+                 
                     <button
                     type="button"
-                    class="btn btn-secondary px-5"
+                    class="btn btn-secondary position-absolute top-100 start-50 translate-middle  px-5"
                     style="
                       position: absolute;
-                      right: 20%;
+                      width:fit-content;
                       background-color: #ff7e55;
                       border: #ff7e55;
                     "
                   >ادامه مطلب</button>
-                </div>
               </div>
+            </div>
+  
           </div>
+
+  
         </div>
       </section>
     <!-- وبلاگ! -->
 
-    <footer style="background-color: #344c5f;">
-        <div class="container py-5" >
+    <!-- footer! -->
+    <section class="" style="background-color: #344c5f;">
+        
+      <div class="container py-3">
+
+        <div class="row m-5">
+
+          <div class="col-lg-3  mb-5 cntr  ">
+
+            <h5 style="color: #e6eff1;" class=" ">تماس با ما</h5>
+            
             <div class="row">
-                <div class="col-3 mx-3">
-                    <h5 style="color: #e6eff1;" class="pb-4">تماس با ما</h5>
-                    <ul
-                    class="list-unstyled footer-list half-paddings noborder"
-                    style="font-size: 10pt"
-                  >
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        <i class="bi bi-envelope fw-bold " style="color: #e6eff1; margin-left: 20px;" ></i>
-                      info[at]papgroup.ir
-                    </li>
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                      <i class="bi bi-telephone "  style="color: #e6eff1;margin-left: 20px;"></i>
-                      49296 (021)
-                    </li>
-                    
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        <i class="bi bi-geo-alt "  style="color: #e6eff1; margin-left: 20px; "></i>
-                      تهران - بزرگراه اشرفی اصفهانی جنوبی- پایین
-                      تر از &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;همت - خیابان 22 بهمن - خیابان
-                      اکبری)دوراهی &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;سمت راست( - پلاك 33 -
-                      واحد 202- زنگ 2
-                    </li>
-                  </ul>
-                    
-
-
-                </div>
-                <div class="col-3  mx-3">
-                    <h5 style="color: #e6eff1;" class="pb-4">خدمات</h5>
-                    <ul
-                    class="list-unstyled footer-list half-paddings noborder"
-                    style="font-size: 10pt"
-                  >
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
+            <div class="col-1">
+              <ul
+              class="  list-unstyled footer-list half-paddings noborder"
+              style="font-size: 10pt"
+            >
+              <li class="fw-bold my-2" style="color: #e6eff1;">
+                  <i class="bi bi-envelope fw-bold " style="color: #e6eff1; margin-left: 20px;" ></i>
+                
+              </li>
+              <li class="fw-bold my-2" style="color: #e6eff1;">
+                <i class="bi bi-telephone "  style="color: #e6eff1;margin-left: 20px;"></i>
+              </li>
+              
+              <li class="fw-bold my-2" style="color: #e6eff1;">
+                  <i class="bi bi-geo-alt "  style="color: #e6eff1; margin-left: 20px; "></i>
+                
+              </li>
+            </ul>
+          </div>
+            <div class="col-9">
+              <ul class="  list-unstyled footer-list half-paddings noborder "
+                      style="font-size: 10pt"
+                    >
+                      <li class="fw-bold my-2" style="text-align: start; color: #e6eff1;">
+                         info[at]papgroup.ir
+                      </li>
+                      <li class="fw-bold my-2" style=" text-align: start; color: #e6eff1;">
                         
-                        طراحی سایت
-                    </li>
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        بهینه سازی سایت
-                    </li>
-                    
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        بازاریابی آنلاین
-                    </li>
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        راهکارهای نوین نرم افزاری
-                    </li>
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        تبلیغات در گوگل ادز
-                    </li>
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        قوانین و مقررات
-                    </li>
-                  </ul>
-
-                  
-                    
-
-
-                </div>
-
-                <div class="col-3 mx-3 ">
-                    <h5 style="color: #e6eff1;" class="pb-4">محصولات</h5>
-                    <ul
-                    class="list-unstyled footer-list half-paddings noborder"
-                    style="font-size: 10pt"
-                  >
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        سامانه پیام کوتاه
-                    </li>
-                    <li class="fw-bold my-2" style="color: #e6eff1;">
-                        مدیریت سانترال هومان
-                    </li>                
-                  </ul>                 
-                </div>
-
-                <div class="col-2  ">
-                            <i class="bi bi-instagram" style="color: #e6eff1;" ></i>  &nbsp;&nbsp;
-                            <i class="bi bi-twitter" style="color: #e6eff1;"></i> &nbsp;&nbsp;
-                            <i class="bi bi-linkedin" style="color: #e6eff1;"></i>
-                       
-                        
-                                 
-                </div>
-
+                        49296 (021)
+                      </li>
+                      
+                      <li class="fw-bold my-2 " style=" text-align: start; color: #e6eff1;">
+                          
+                        تهران - بزرگراه اشرفی اصفهانی جنوبی- پایین
+                        تر ازهمت - خیابان 22 بهمن - خیابان
+                        (اکبری) دوراهی سمت راست - پلاك 33 -
+                        واحد 202- زنگ 2
+                      </li>
+                    </ul>
             </div>
+          </div>
+          
+          </div>
+
+          <div class="col-lg-3 mb-5 cntr">
+            <h5 style="color: #e6eff1;" class="pb-4 ">خدمات</h5>
+            <ul
+                class=" list-unstyled footer-list half-paddings noborder"
+                style="font-size: 10pt"
+              >
+                <li class="fw-bold my-2" style="color: #e6eff1;">
+                    
+                    طراحی سایت
+                </li>
+                <li class="fw-bold my-2" style="color: #e6eff1;">
+                    بهینه سازی سایت
+                </li>
+                
+                <li class="fw-bold my-2" style="color: #e6eff1;">
+                    بازاریابی آنلاین
+                </li>
+                <li class="fw-bold my-2" style="color: #e6eff1;">
+                    راهکارهای نوین نرم افزاری
+                </li>
+                <li class="fw-bold my-2" style="color: #e6eff1;">
+                    تبلیغات در گوگل ادز
+                </li>
+                <li class="fw-bold my-2" style="color: #e6eff1;">
+                    قوانین و مقررات
+                </li>
+              </ul>
+          </div>
+
+          <div class=" col-lg-3 mb-5 cntr ">
+            <h5 style="color: #e6eff1;" class="pb-4 ">محصولات</h5>
+            <ul
+            class="list-unstyled footer-list half-paddings noborder"
+            style="font-size: 10pt"
+          >
+            <li class="fw-bold my-2" style="color: #e6eff1;">
+                سامانه پیام کوتاه
+            </li>
+            <li class="fw-bold my-2" style="color: #e6eff1;">
+                مدیریت سانترال هومان
+            </li>                
+          </ul> 
+          </div>
+
+
+
+          <div class=" col-lg-3 mb-5 cntr">
+            
+                  
+            <i class="bi bi-instagram" style="color: #e6eff1;" ></i>  &nbsp;&nbsp;
+            <i class="bi bi-twitter" style="color: #e6eff1;"></i> &nbsp;&nbsp;
+            <i class="bi bi-linkedin" style="color: #e6eff1;"></i>                 
         </div>
-    </footer>
+
+            
+      </div>
+
+      </div>  
+      
+    </section>
+
+    <!-- footer! -->
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
