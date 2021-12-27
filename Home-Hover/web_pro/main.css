@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "sans";
+  src: url("./fonts/Sansa4fran3.ttf");
+}
+body {
+  font-family: "sans";
+}
+
+.col-12,
+#carouselExampleControlsNoTouching {
+  max-width: 70%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 769px) {
+  .bp {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media screen and (max-width: 769px) and (min-width: 481px) {
+  .bp {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .bp {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .cntr {
+    text-align: center;
+  }
+  .icon_display {
+    display: none;
+  }
+  .my_icon {
+    margin: 0px;
+  }
+  .img_comment{
+    width: 35%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 769px) {
+  .col-1 {
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .brv {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .brv {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .brv {
+    display: none;
+  }
+}
+
+.btn-outline-dark {
+  display: inline-flex;
+}

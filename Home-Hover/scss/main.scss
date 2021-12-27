@@ -1,0 +1,97 @@
+@import 'valiables';
+
+.background_color {
+  background-color: $primary_background_color;
+}
+
+.image_welcome {
+  max-width: 100%;
+  height: auto;
+}
+
+.color_header_light {
+  color: $button_light_color;
+}
+
+.color_header_dark {
+  color: $text_dark_color;
+}
+
+.button_dark {
+  background-color: $button_dark_color;
+  border: $button_dark_color;
+}
+
+.button_ligh {
+  background-color: $button_light_color;
+  border: $button_light_color;
+}
+
+.box_services {
+  color: $text_box_services;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card_product {
+  border-radius: 10px;
+  border: solid $border_products_color 5px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-img-top {
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.color_header_box_blog {
+  color: $text_header_box_blog;
+}
+
+.color_text_footer {
+  color: $footert_text_color;
+}
+
+footer {
+  background-color: $color_footer;
+}
+
+.carousel-item {
+  img {
+    border-radius: 500px;
+  }
+}
+
+.navbar-brand {
+  img {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 50px;
+  }
+}
+
+.img_service {
+  img {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+.blog_box{
+    border-radius: 10px;
+}
+
+.icon_footer{
+    margin-left: 20px;
+}
+
+.footer_size{
+    font-size: 10pt;
+}
+
